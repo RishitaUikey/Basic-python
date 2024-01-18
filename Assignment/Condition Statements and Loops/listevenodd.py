@@ -5,9 +5,13 @@ Expected Output :
 Number of even numbers : 5
 Number of odd numbers : 4  '''
 
-x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-for i in x:
+n = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+even_count=0
+odd_count=0
+for i in n:
     if (i%2==0):
-        print("Number of even numbers :",i)
+        even_count+=1 
     else:
-        print("Number of odd numbers :",i)
+        odd_count+=1
+print("Number of even numbers :",even_count)
+print("Number of odd numbers :",odd_count)
