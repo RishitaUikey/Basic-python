@@ -4,5 +4,9 @@ Sample list : ['p', 'q']
 n =5
 Sample Output : ['p1', 'q1', 'p2', 'q2', 'p3', 'q3', 'p4', 'q4', 'p5', 'q5']'''
 
-l=['p', 'q']
+list = ['p', 'q']
+n = 7
+
+result_list = [x + str(i) for i in range(1, n + 1) for x in list]
+print(result_list)
 
